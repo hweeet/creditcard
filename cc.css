@@ -1,0 +1,141 @@
+body {
+    background-color: #e8e3e3;
+}
+
+.title {
+    text-align: center;
+    color: red;
+};
+
+.titleTwo {
+    text-align: center;
+}
+
+.inputWrapper {
+    height: 300px;
+    width: 900px;
+    margin: auto;
+    background-color: #808080;
+    text-align:center;
+    border: #f50c0c solid 2px;
+}
+
+.inputFlex {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 30px;
+    border: #f50c0c solid 2px;
+    margin-top: 40px;
+}
+
+#clickableButton {
+    margin-top: 20px;
+}
+
+#output {
+    margin-top: 50px;
+}
+
+.buttonFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonStyle {
+    background-color: #f50c0c;
+}
+
+.buttonStyle:hover {
+    cursor: pointer;
+}
+
+.buttonStyle:active {
+    background-color: green;
+}
+
+.outputFlex {
+    display: flex;
+    justify-content: center;
+}
+
+
+#nervous {
+    text-align: center;
+}
+
+.nervousFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.nervousContainerFlex {
+    display: flex;
+    justify-content: center;
+}
+
+#nervousButton {
+    background-color: #f50c0c
+}
+
+#nervousButton:hover {
+    cursor: pointer;
+}
+
+#nervousButton:active {
+    background-color: green;
+}
+
+.new-text-material {
+    text-align: center;
+}
+
+.webLink {
+    text-align: center;
+}
+
+#resetButton {
+    background-color: #f50c0c;
+}
+
+#resetButton:hover {
+    cursor: pointer;
+}
+
+#resetButton:active {
+    background-color: green;
+}
+
+.textFlex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.listFlex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resetFlex {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .inputWrapper {
+        height: 300px;
+        width: 500px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    .inputWrapper {
+        height: 300px;
+        width: 250px;
+}
+}
